@@ -1,0 +1,19 @@
+Key,Value,Note
+emailName,ahmedtaha@creator-groupeg.com,email name that the robot will use
+emailPassword,********,email password
+hidemeUsername,rpaTest253272,username of hide.me account to signup or login
+hidemePassword,Rpa@test@27382731,password of hide.me account
+outputFolder,Output\,the output folder thatt contains the process result files
+screenshotsFolder,screenshots\,this folder contains the error screenshots
+receiverEmails,,receiver's emails that you should send the output files to them
+receivedEmailSubject,maids.cc RPA test,
+attachedExcelFileName,test.xlsx,
+fakeNameGeneratorURL,https://www.fakenamegenerator.com/gen-male-ar-it.php,
+resultFileLocation,Result\,
+templateFolder,Templates\,
+resultFileName,result.xlsx,
+AutomationExerciseURL,https://automationexercise.com/,
+GetIdApiUrl,https://reqres.in/api/users,
+SummaryFile,Summary.xlsx,
+SummaryFolder,Summary\,
+SME_Email,ahmedtaha@creator-groupeg.com,

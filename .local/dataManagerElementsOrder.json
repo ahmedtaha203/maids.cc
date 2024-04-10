@@ -1,0 +1,185 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_ResultData&Sequence_1",
+        "CheckFileExistance&Sequence_1",
+        "Config&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/Read_Config.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FileExists&Sequence_7",
+        "dt_ConfigDetails&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/Read_Initial_Email.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Master Process/ReadEmails_GenerateUserData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_UserData&Sequence_1",
+        "CheckFileExistance&Sequence_5",
+        "ErrorMessage&Sequence_1",
+        "CellCounterSummary&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Fake Name Generator/Get_Fake_Details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ErrorMessage&Sequence_1",
+        "ScreenShot&Sequence_1",
+        "screenShotPath&Sequence_1",
+        "CountryItems&Sequence_3",
+        "GenderItems&Sequence_3",
+        "CheckFileExists&Sequence_5",
+        "dt_UserDetails&Sequence_1",
+        "LastName&Sequence_4",
+        "FirstName&Sequence_4",
+        "FullName&Sequence_2",
+        "PhoneNumber&Sequence_2",
+        "EmailAddress&Sequence_2",
+        "BirthDay&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Country",
+        "in_Gender",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Automation Exercise/Signup_New_Account.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_UserDetails",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Automation Exercise/Fill_User_Details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CountryListItems&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_UserDetails",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Automation Exercise/Delete_Created_Account.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "in_UserDetails"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Master Process/RegisterNewAccounts.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ScreenShot&Sequence_1",
+        "screenShotPath&Sequence_1",
+        "CellCount&Sequence_1",
+        "UserID&Sequence_1",
+        "ErrorMessage&Sequence_1",
+        "StartDate&Sequence_1",
+        "dt_Summary&Sequence_1",
+        "CellCounterSummary&Sequence_1",
+        "dt_ResultSheet&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/GetUserID.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Response&Sequence_1",
+        "JResponse&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_UserID",
+        "in_Config",
+        "in_UserDetails"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/UpdateSummaryReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RowIndex&Sequence_1",
+        "dt_Summary&Sequence_1",
+        "StartDate&Sequence_1",
+        "CellCounterSummary&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_screenShotPath",
+        "in_ErrorMessage",
+        "in_UserID",
+        "in_CurrentRow",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Common/KillAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
